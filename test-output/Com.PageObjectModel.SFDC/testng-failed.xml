@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Com.PageObjectModel.SFDC]">
+  <listeners>
+    <listener class-name="com.sfdc.utilities.ReportListener"/>
+  </listeners>
+  <test thread-count="5" name=" SFDC App Test(failed)">
+    <classes>
+      <class name="com.sfdc.testCases.TC_UserMenuTest_002">
+        <methods>
+          <include name="setup"/>
+          <include name="userTest02"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
+    </classes>
+  </test> <!--  SFDC App Test(failed) -->
+</suite> <!-- Failed suite [Com.PageObjectModel.SFDC] -->

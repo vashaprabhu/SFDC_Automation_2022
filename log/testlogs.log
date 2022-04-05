@@ -1,0 +1,308 @@
+2022-04-02 09:45:33,512 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-02 09:45:33,936 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-02 09:45:34,466 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-02 09:45:34,813 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-02 09:45:36,692 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-02 09:45:39,663 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-02 09:45:40,275 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-02 09:45:40,659 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-02 09:45:41,100 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-02 09:45:42,335 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-02 09:45:45,802 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-02 09:45:49,259 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-02 09:45:49,421 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-02 09:45:50,456 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-02 09:45:55,571 - TC_UserMenuTest_002 -INFO - pass
+2022-04-02 09:45:55,863 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-02 09:45:56,145 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-02 09:45:56,278 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-02 09:45:56,471 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-02 09:45:58,473 - TC_UserMenuTest_002 -INFO - time taken for test 25672
+2022-04-02 09:50:29,722 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-02 09:50:30,357 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-02 09:50:30,643 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-02 09:50:31,136 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-02 09:50:33,024 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-02 09:50:36,082 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-02 09:50:36,745 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-02 09:50:37,091 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-02 09:50:37,591 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-02 09:50:38,853 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-02 09:50:42,419 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-02 09:50:45,910 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-02 09:50:46,105 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-02 09:50:46,983 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-02 09:50:52,115 - TC_UserMenuTest_002 -INFO - pass
+2022-04-02 09:50:52,381 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-02 09:50:52,680 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-02 09:50:52,813 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-02 09:50:53,016 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-02 09:50:55,021 - TC_UserMenuTest_002 -INFO - time taken for test 26045
+2022-04-02 09:52:50,797 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-02 09:52:51,588 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-02 09:52:52,148 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-02 09:52:52,423 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-02 09:52:54,716 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-02 09:52:57,703 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-02 09:52:58,584 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-02 09:52:58,960 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-02 09:53:01,432 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-02 09:53:01,525 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-02 09:53:05,229 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-02 09:53:08,554 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-02 09:53:08,726 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-02 09:53:09,778 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-02 09:53:14,915 - TC_UserMenuTest_002 -INFO - pass
+2022-04-02 09:53:15,213 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-02 09:53:15,516 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-02 09:53:15,640 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-02 09:53:15,842 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-02 09:53:17,858 - TC_UserMenuTest_002 -INFO - time taken for test 27759
+2022-04-04 12:49:33,473 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 12:49:33,611 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 12:49:33,679 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 12:49:33,735 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 12:49:36,219 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 12:49:38,977 - TC_LoginTest_001 -INFO - login pass
+2022-04-04 12:49:38,983 - TC_LoginTest_001 -INFO - time taken for test 6513
+2022-04-04 12:49:40,803 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 12:49:40,907 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 12:49:40,964 - TC_LoginTest_001 -INFO - entered no Password
+2022-04-04 12:49:41,293 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 12:49:41,591 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 12:49:41,781 - TC_LoginTest_001 -INFO - Please enter your password. error msg
+2022-04-04 12:49:41,781 - TC_LoginTest_001 -INFO - login doesnot happened
+2022-04-04 12:49:41,783 - TC_LoginTest_001 -INFO - time taken for test 1533
+2022-04-04 12:49:43,750 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 12:49:43,889 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 12:49:44,035 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 12:49:44,334 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 12:49:46,315 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 12:49:49,031 - TC_LoginTest_001 -INFO - clicked on user menu button
+2022-04-04 12:49:50,098 - TC_LoginTest_001 -INFO - clicked logout
+2022-04-04 12:49:55,928 - TC_LoginTest_001 -INFO - username is available after logout
+2022-04-04 12:49:55,929 - TC_LoginTest_001 -INFO - time taken for test 12710
+2022-04-04 12:49:58,066 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 12:49:58,393 - TC_LoginTest_001 -INFO - clicked on forgot your password?
+2022-04-04 12:49:58,549 - TC_LoginTest_001 -INFO - Entered username to reset password
+2022-04-04 12:49:59,224 - TC_LoginTest_001 -INFO - clicked on continue btn
+2022-04-04 12:49:59,290 - TC_LoginTest_001 -INFO - got reset msg as : Check Your Email
+2022-04-04 12:49:59,454 - TC_LoginTest_001 -INFO - Clicked on return btn
+2022-04-04 12:49:59,464 - TC_LoginTest_001 -INFO - pass
+2022-04-04 12:49:59,466 - TC_LoginTest_001 -INFO - time taken for test 2181
+2022-04-04 12:50:01,930 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 12:50:02,072 - TC_LoginTest_001 -INFO - Entered wrong username
+2022-04-04 12:50:02,348 - TC_LoginTest_001 -INFO - Entered wrong password
+2022-04-04 12:50:02,840 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 12:50:03,071 - TC_LoginTest_001 -INFO - Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
+2022-04-04 12:50:03,072 - TC_LoginTest_001 -INFO - time taken for test 1700
+2022-04-04 12:50:05,385 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 12:50:05,552 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 12:50:05,884 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 12:50:06,205 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 12:50:08,073 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 12:50:12,145 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 12:50:12,404 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-04 12:50:13,039 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-04 12:50:13,669 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-04 12:50:15,523 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-04 12:50:19,157 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-04 12:50:22,503 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-04 12:50:22,648 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-04 12:50:23,920 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-04 12:50:29,163 - TC_UserMenuTest_002 -INFO - pass
+2022-04-04 12:50:29,711 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-04 12:50:30,311 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-04 12:50:30,520 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-04 12:50:30,863 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-04 12:50:32,872 - TC_UserMenuTest_002 -INFO - time taken for test 28101
+2022-04-04 14:02:12,824 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:02:12,953 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:02:13,025 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:02:13,096 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:02:14,875 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:02:17,412 - TC_LoginTest_001 -INFO - login pass
+2022-04-04 14:02:17,422 - TC_LoginTest_001 -INFO - time taken for test 5133
+2022-04-04 14:02:19,676 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:02:19,834 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:02:20,186 - TC_LoginTest_001 -INFO - entered no Password
+2022-04-04 14:02:20,393 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:02:20,736 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:02:21,300 - TC_LoginTest_001 -INFO - Please enter your password. error msg
+2022-04-04 14:02:21,301 - TC_LoginTest_001 -INFO - login doesnot happened
+2022-04-04 14:02:21,304 - TC_LoginTest_001 -INFO - time taken for test 2238
+2022-04-04 14:02:23,875 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:02:24,104 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:02:24,805 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:02:25,172 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:02:26,765 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:02:30,158 - TC_LoginTest_001 -INFO - clicked on user menu button
+2022-04-04 14:02:31,318 - TC_LoginTest_001 -INFO - clicked logout
+2022-04-04 14:02:34,369 - TC_LoginTest_001 -INFO - username is available after logout
+2022-04-04 14:02:34,370 - TC_LoginTest_001 -INFO - time taken for test 11105
+2022-04-04 14:02:36,579 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:02:36,782 - TC_LoginTest_001 -INFO - clicked on forgot your password?
+2022-04-04 14:02:37,035 - TC_LoginTest_001 -INFO - Entered username to reset password
+2022-04-04 14:02:37,603 - TC_LoginTest_001 -INFO - clicked on continue btn
+2022-04-04 14:02:37,680 - TC_LoginTest_001 -INFO - got reset msg as : Check Your Email
+2022-04-04 14:02:37,888 - TC_LoginTest_001 -INFO - Clicked on return btn
+2022-04-04 14:02:37,920 - TC_LoginTest_001 -INFO - pass
+2022-04-04 14:02:37,924 - TC_LoginTest_001 -INFO - time taken for test 2016
+2022-04-04 14:02:40,362 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:02:40,565 - TC_LoginTest_001 -INFO - Entered wrong username
+2022-04-04 14:02:40,694 - TC_LoginTest_001 -INFO - Entered wrong password
+2022-04-04 14:02:41,121 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:02:41,297 - TC_LoginTest_001 -INFO - Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
+2022-04-04 14:02:41,301 - TC_LoginTest_001 -INFO - time taken for test 1564
+2022-04-04 14:02:44,192 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 14:02:44,896 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 14:02:45,549 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 14:02:45,864 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 14:02:47,967 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 14:02:51,171 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 14:02:51,658 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-04 14:02:52,151 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-04 14:02:52,576 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-04 14:02:53,830 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-04 14:02:57,280 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-04 14:03:00,552 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-04 14:03:00,732 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-04 14:03:01,966 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-04 14:03:07,070 - TC_UserMenuTest_002 -INFO - pass
+2022-04-04 14:03:07,272 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-04 14:03:07,445 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-04 14:03:07,560 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-04 14:03:07,706 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-04 14:03:09,720 - TC_UserMenuTest_002 -INFO - time taken for test 26178
+2022-04-04 14:15:11,285 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:15:11,775 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:15:12,293 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:15:12,828 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:15:14,796 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:15:17,822 - TC_LoginTest_001 -INFO - login pass
+2022-04-04 14:15:18,340 - TC_LoginTest_001 -INFO - time taken for test 7775
+2022-04-04 14:15:20,689 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:15:20,967 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:15:21,619 - TC_LoginTest_001 -INFO - entered no Password
+2022-04-04 14:15:22,101 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:15:22,593 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:15:22,957 - TC_LoginTest_001 -INFO - Please enter your password. error msg
+2022-04-04 14:15:22,958 - TC_LoginTest_001 -INFO - login doesnot happened
+2022-04-04 14:15:23,304 - TC_LoginTest_001 -INFO - time taken for test 3273
+2022-04-04 14:15:25,607 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:15:25,833 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:15:26,054 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:15:26,209 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:15:31,529 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:15:31,655 - TC_LoginTest_001 -INFO - clicked on user menu button
+2022-04-04 14:15:32,950 - TC_LoginTest_001 -INFO - clicked logout
+2022-04-04 14:15:36,033 - TC_LoginTest_001 -INFO - username is available after logout
+2022-04-04 14:15:36,338 - TC_LoginTest_001 -INFO - time taken for test 11427
+2022-04-04 14:15:39,572 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:15:39,858 - TC_LoginTest_001 -INFO - clicked on forgot your password?
+2022-04-04 14:15:40,077 - TC_LoginTest_001 -INFO - Entered username to reset password
+2022-04-04 14:15:40,575 - TC_LoginTest_001 -INFO - clicked on continue btn
+2022-04-04 14:15:40,681 - TC_LoginTest_001 -INFO - got reset msg as : Check Your Email
+2022-04-04 14:15:40,916 - TC_LoginTest_001 -INFO - Clicked on return btn
+2022-04-04 14:15:40,984 - TC_LoginTest_001 -INFO - pass
+2022-04-04 14:15:41,335 - TC_LoginTest_001 -INFO - time taken for test 3417
+2022-04-04 14:15:43,636 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:15:44,079 - TC_LoginTest_001 -INFO - Entered wrong username
+2022-04-04 14:15:44,731 - TC_LoginTest_001 -INFO - Entered wrong password
+2022-04-04 14:15:45,636 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:15:46,079 - TC_LoginTest_001 -INFO - Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
+2022-04-04 14:15:46,417 - TC_LoginTest_001 -INFO - time taken for test 3467
+2022-04-04 14:15:48,563 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 14:15:49,258 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 14:15:49,903 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 14:15:50,224 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 14:15:55,053 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 14:15:55,176 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 14:15:55,337 - TC_UserMenuTest_002 -INFO - got menu items
+2022-04-04 14:15:55,770 - TC_UserMenuTest_002 -INFO - time taken for test 7816
+2022-04-04 14:15:58,088 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 14:15:58,304 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 14:15:58,528 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 14:15:59,092 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 14:16:01,108 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 14:16:03,907 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 14:16:04,577 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-04 14:16:04,978 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-04 14:16:06,673 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-04 14:16:06,755 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-04 14:16:11,591 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-04 14:16:14,945 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-04 14:16:15,144 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-04 14:16:16,036 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-04 14:16:21,147 - TC_UserMenuTest_002 -INFO - pass
+2022-04-04 14:16:21,436 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-04 14:16:21,711 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-04 14:16:21,861 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-04 14:16:22,047 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-04 14:16:24,386 - TC_UserMenuTest_002 -INFO - time taken for test 26951
+2022-04-04 14:21:59,663 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:22:00,265 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:22:01,070 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:22:01,366 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:22:03,241 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:22:05,969 - TC_LoginTest_001 -INFO - login pass
+2022-04-04 14:22:05,984 - TC_LoginTest_001 -INFO - time taken for test 7050
+2022-04-04 14:22:08,494 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:22:08,973 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:22:09,523 - TC_LoginTest_001 -INFO - entered no Password
+2022-04-04 14:22:09,662 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:22:10,313 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:22:10,809 - TC_LoginTest_001 -INFO - Please enter your password. error msg
+2022-04-04 14:22:10,809 - TC_LoginTest_001 -INFO - login doesnot happened
+2022-04-04 14:22:10,812 - TC_LoginTest_001 -INFO - time taken for test 2987
+2022-04-04 14:22:14,115 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:22:14,851 - TC_LoginTest_001 -INFO - Username entered
+2022-04-04 14:22:15,565 - TC_LoginTest_001 -INFO - entered Password
+2022-04-04 14:22:16,159 - TC_LoginTest_001 -INFO - Remember me checked
+2022-04-04 14:22:24,016 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:22:24,168 - TC_LoginTest_001 -INFO - clicked on user menu button
+2022-04-04 14:22:25,530 - TC_LoginTest_001 -INFO - clicked logout
+2022-04-04 14:22:28,594 - TC_LoginTest_001 -INFO - username is available after logout
+2022-04-04 14:22:28,594 - TC_LoginTest_001 -INFO - time taken for test 15323
+2022-04-04 14:22:31,352 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:22:31,793 - TC_LoginTest_001 -INFO - clicked on forgot your password?
+2022-04-04 14:22:32,150 - TC_LoginTest_001 -INFO - Entered username to reset password
+2022-04-04 14:22:32,755 - TC_LoginTest_001 -INFO - clicked on continue btn
+2022-04-04 14:22:32,867 - TC_LoginTest_001 -INFO - got reset msg as : Check Your Email
+2022-04-04 14:22:33,140 - TC_LoginTest_001 -INFO - Clicked on return btn
+2022-04-04 14:22:33,235 - TC_LoginTest_001 -INFO - pass
+2022-04-04 14:22:33,240 - TC_LoginTest_001 -INFO - time taken for test 2662
+2022-04-04 14:22:37,272 - TC_LoginTest_001 -INFO - url opened
+2022-04-04 14:22:38,274 - TC_LoginTest_001 -INFO - Entered wrong username
+2022-04-04 14:22:39,226 - TC_LoginTest_001 -INFO - Entered wrong password
+2022-04-04 14:22:39,891 - TC_LoginTest_001 -INFO - clicked on login
+2022-04-04 14:22:40,691 - TC_LoginTest_001 -INFO - Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
+2022-04-04 14:22:40,693 - TC_LoginTest_001 -INFO - time taken for test 4402
+2022-04-04 14:22:44,264 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 14:22:44,995 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 14:22:46,011 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 14:22:46,423 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 14:22:48,563 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 14:22:51,624 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 14:22:51,953 - TC_UserMenuTest_002 -INFO - got menu items
+2022-04-04 14:22:51,955 - TC_UserMenuTest_002 -INFO - time taken for test 8477
+2022-04-04 14:22:55,617 - TC_UserMenuTest_002 -INFO - url opened
+2022-04-04 14:22:56,531 - TC_UserMenuTest_002 -INFO - Username entered
+2022-04-04 14:22:57,309 - TC_UserMenuTest_002 -INFO - entered Password
+2022-04-04 14:22:57,852 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-04-04 14:23:05,462 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-04-04 14:23:05,605 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-04-04 14:23:06,635 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-04-04 14:23:07,015 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-04-04 14:23:08,995 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-04-04 14:23:09,071 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-04-04 14:23:12,524 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-04-04 14:23:15,807 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-04-04 14:23:16,021 - TC_UserMenuTest_002 -INFO - last name changed
+2022-04-04 14:23:17,120 - TC_UserMenuTest_002 -INFO - saved last name
+2022-04-04 14:23:22,227 - TC_UserMenuTest_002 -INFO - pass
+2022-04-04 14:23:22,528 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-04-04 14:23:22,840 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-04-04 14:23:22,969 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-04-04 14:23:23,189 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-04-04 14:23:25,190 - TC_UserMenuTest_002 -INFO - time taken for test 30373

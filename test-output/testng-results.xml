@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sfdc" duration-ms="59634" started-at="2022-04-04T21:02:10Z" finished-at="2022-04-04T21:03:09Z">
+    <groups>
+    </groups>
+    <test name=" SFDC App Test" duration-ms="59634" started-at="2022-04-04T21:02:10Z" finished-at="2022-04-04T21:03:09Z">
+      <class name="com.sfdc.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="setup" is-config="true" duration-ms="2005" started-at="2022-04-04T21:02:10Z" finished-at="2022-04-04T21:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest01()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="loginTest01" duration-ms="5125" started-at="2022-04-04T21:02:12Z" finished-at="2022-04-04T21:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-04T21:02:17Z" finished-at="2022-04-04T21:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="setup" is-config="true" duration-ms="1643" started-at="2022-04-04T21:02:17Z" finished-at="2022-04-04T21:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest02()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="loginTest02" duration-ms="2235" started-at="2022-04-04T21:02:19Z" finished-at="2022-04-04T21:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-04T21:02:21Z" finished-at="2022-04-04T21:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="setup" is-config="true" duration-ms="1960" started-at="2022-04-04T21:02:21Z" finished-at="2022-04-04T21:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest03()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="loginTest03" duration-ms="11103" started-at="2022-04-04T21:02:23Z" finished-at="2022-04-04T21:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest03 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-04T21:02:34Z" finished-at="2022-04-04T21:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="setup" is-config="true" duration-ms="1537" started-at="2022-04-04T21:02:34Z" finished-at="2022-04-04T21:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest04()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="loginTest04" duration-ms="2014" started-at="2022-04-04T21:02:35Z" finished-at="2022-04-04T21:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest04 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-04T21:02:37Z" finished-at="2022-04-04T21:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="setup" is-config="true" duration-ms="1812" started-at="2022-04-04T21:02:37Z" finished-at="2022-04-04T21:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest05()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="loginTest05" duration-ms="1561" started-at="2022-04-04T21:02:39Z" finished-at="2022-04-04T21:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest05 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-04-04T21:02:41Z" finished-at="2022-04-04T21:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.sfdc.testCases.TC_LoginTest_001@e25b2fe]" name="closeDriver" is-config="true" duration-ms="0" started-at="2022-04-04T21:02:41Z" finished-at="2022-04-04T21:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.sfdc.testCases.TC_LoginTest_001 -->
+      <class name="com.sfdc.testCases.TC_UserMenuTest_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.testCases.TC_UserMenuTest_002@754ba872]" name="setup" is-config="true" duration-ms="2239" started-at="2022-04-04T21:02:41Z" finished-at="2022-04-04T21:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userTest02()[pri:0, instance:com.sfdc.testCases.TC_UserMenuTest_002@754ba872]" name="userTest02" duration-ms="26176" started-at="2022-04-04T21:02:43Z" finished-at="2022-04-04T21:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTest02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sfdc.testCases.TC_UserMenuTest_002@754ba872]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-04T21:03:09Z" finished-at="2022-04-04T21:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.sfdc.testCases.TC_UserMenuTest_002@754ba872]" name="closeDriver" is-config="true" duration-ms="0" started-at="2022-04-04T21:03:09Z" finished-at="2022-04-04T21:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
+    </test> <!--  SFDC App Test -->
+  </suite> <!-- sfdc -->
+</testng-results>
