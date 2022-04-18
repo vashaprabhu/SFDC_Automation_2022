@@ -49,6 +49,11 @@ public class ReadConfig {
 		return ffPath;
 	}
 	
+	public String getEdgePath() {
+		String edPath = prop.getProperty("edgePath");
+		return edPath;
+	}
+	
 	public String getWUserName() {
 		String wruserName = prop.getProperty("wrUName");
 		return wruserName;

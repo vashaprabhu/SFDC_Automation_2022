@@ -33,33 +33,35 @@ public class LoginPage {
 	@FindBy(id= "error")
 	WebElement errorWithoutPassword;
 	
-	@FindBy(xpath = "//div/span[@id='idcard-identity']")
-	WebElement userNameAfterLogout;
-	
-	
-	public void setUsername(String uname) {
-		username.sendKeys(uname);
-	}
-	
-	public void setPassword(String psword) {
-		password.sendKeys(psword);
-	}
-	
-	public void clickRememberme() {
-		rememberMeChkBox.click();
-	}
-	
-	public void clickForgotPassword() {
-		forgotPPasswordLink.click();
-	}
-	
 	public String getErrorWithoutPassword() {
 		String errMsg = errorWithoutPassword.getText();
 		return errMsg;
 	}
 	
-	public void clickLoginBtn() {
-		login.click();
+	
+	@FindBy(xpath = "//div/span[@id='idcard-identity']")
+	WebElement userNameAfterLogout;
+	
+	
+	public WebElement getUsername() {
+		return username;
+	}
+	
+	public WebElement getPassword() {
+		return password;
+	}
+	
+	public WebElement getRememberme() {
+		return rememberMeChkBox;
+	}
+	
+	public WebElement getForgotPassword() {
+		return forgotPPasswordLink;
+	}
+	
+	
+	public WebElement getLoginBtn() {
+		return login;
 	}
 	
 	public String getUNAfterLogout() {

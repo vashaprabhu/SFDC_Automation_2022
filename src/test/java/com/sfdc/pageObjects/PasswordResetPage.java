@@ -17,15 +17,15 @@ WebDriver ldriver;
 	@FindBy(xpath = "//div/input[@type='email']")
 	WebElement userNameToResetPassword;
 	
-	public void setUNForPassword(String name) {
-		userNameToResetPassword.sendKeys(name);
+	public WebElement getUNForPassword() {
+		return userNameToResetPassword;
 	}
 	
 	@FindBy(xpath = "//div/input[@type='submit']")
 	WebElement continueBtn;
 	
-	public void clickOnContinue() {
-		continueBtn.click();
+	public WebElement getOnContinue() {
+		return continueBtn;
 	}
 	
 	@FindBy(xpath = "//div/h1[@id='header']")
@@ -39,7 +39,7 @@ WebDriver ldriver;
 	@FindBy(xpath = "//div/a[contains(text(), 'Return')]")
 	WebElement returnToLogin;
 	
-	public void clickReturnToLogin() {
-		returnToLogin.click();
+	public WebElement getReturnToLogin() {
+		return returnToLogin;
 	}
 }

@@ -4,6 +4,5 @@ com\sfdc\utilities\ReadConfig.class
 com\sfdc\testCases\BaseClass.class
 com\sfdc\testCases\TC_UserMenuTest_002.class
 com\sfdc\testCases\TC_LoginTest_001.class
-com\sfdc\pageObjects\UserMenuPage.class
 com\sfdc\utilities\ReportListener.class
 com\sfdc\pageObjects\PasswordResetPage.class

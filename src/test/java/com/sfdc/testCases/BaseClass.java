@@ -14,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -37,9 +38,9 @@ public class BaseClass {
 	
 	static ReadConfig readConfig = new ReadConfig();
 	
-	public static String baseURL = readConfig.getApplicationURL();
-	public static String username = readConfig.getUserName();
-	public static String password = readConfig.getPassword();
+	public  String baseURL = readConfig.getApplicationURL();
+	public  String username = readConfig.getUserName();
+	public  String password = readConfig.getPassword();
 	public String wrusername = readConfig.getWUserName();
 	public String wrpassword = readConfig.getWPassword();
 	public String lname = readConfig.getLastname();
@@ -62,6 +63,14 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
+//		System.getProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
+//		driver = new FirefoxDriver();
+//		driver.manage().window().maximize();
+		
+//		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
+//		driver = new EdgeDriver();
+//		driver.manage().window().maximize();
 
 		testLogger = LogManager.getLogger(getClass().getSimpleName());
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j2.properties");	
@@ -70,9 +79,33 @@ public class BaseClass {
 		
 	}
 	
+//	@Parameters("browser")
+//	@BeforeMethod
+//	public void setup(String sbrowser) {
+//		if(sbrowser.equalsIgnoreCase("chrome")) {
+//		System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		}
+////		System.getProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
+////		driver = new FirefoxDriver();
+////		driver.manage().window().maximize();
+//		else if(sbrowser.equalsIgnoreCase("edge")) {
+//		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
+//		driver = new EdgeDriver();
+//		driver.manage().window().maximize();
+//		}
+//
+//		testLogger = LogManager.getLogger(getClass().getSimpleName());
+//		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j2.properties");	
+//		
+//		startTime = System.currentTimeMillis();
+//		
+//	}
+	
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
+//		driver.close();
 		endTime = System.currentTimeMillis();
 		long totalTime = endTime - startTime;
 		testLogger.info("time taken for test "+totalTime);

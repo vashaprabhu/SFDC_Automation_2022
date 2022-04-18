@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-sfdc">
-              <span class="suite-name border-passed">sfdc</span>
+              <span class="suite-name border-failed">sfdc</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-sfdc">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-sfdc" class="hide-methods failed suite-sfdc"> (hide)</a> <!-- hide-methods failed suite-sfdc -->
+                      <a href="#" panel-name="suite-sfdc" class="show-methods failed suite-sfdc"> (show)</a> <!-- show-methods failed suite-sfdc -->
+                    </span>
+                    <div class="method-list-content failed suite-sfdc">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-sfdc" title="com.sfdc.testCases.TC_UserMenuTest_002" hash-for-method="userTest02">userTest02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-sfdc -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,7 +146,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-sfdc" title="com.sfdc.testCases.TC_UserMenuTest_002" hash-for-method="userTest02">userTest02</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-sfdc" title="com.sfdc.testCases.TC_UserMenuTest_002" hash-for-method="userTest03">userTest03</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-sfdc -->
@@ -147,28 +161,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-sfdc" class="panel sfdc">
-          <div class="suite-sfdc-class-passed">
+          <div class="suite-sfdc-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.sfdc.testCases.TC_UserMenuTest_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="userTest01">
-                  </a> <!-- userTest01 -->
-                  <span class="method-name">userTest01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="userTest02">
                   </a> <!-- userTest02 -->
                   <span class="method-name">userTest02</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: MicrosoftEdge=100.0.1185.29)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VARSHA&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61737}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\varsh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 940d6a2f9e6fa10677113de923ea3b9e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.sfdc.pageObjects.HomePage.setPhoto(HomePage.java:186)
+	at com.sfdc.testCases.TC_UserMenuTest_002.userTest02(TC_UserMenuTest_002.java:86)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-sfdc-class-passed -->
+          </div> <!-- suite-sfdc-class-failed -->
           <div class="suite-sfdc-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -212,6 +243,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-sfdc-class-passed -->
+          <div class="suite-sfdc-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sfdc.testCases.TC_UserMenuTest_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userTest01">
+                  </a> <!-- userTest01 -->
+                  <span class="method-name">userTest01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userTest03">
+                  </a> <!-- userTest03 -->
+                  <span class="method-name">userTest03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-sfdc-class-passed -->
         </div> <!-- panel sfdc -->
         <div panel-name="test-xml-sfdc" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -221,16 +274,22 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;sfdc&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;sfdc&quot; parallel=&quot;classes&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.sfdc.utilities.ReportListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot; SFDC App Test&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot; SFDC App Test&quot; parallel=&quot;classes&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.sfdc.testCases.TC_LoginTest_001&quot;/&gt;
-      &lt;class name=&quot;com.sfdc.testCases.TC_UserMenuTest_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!--  SFDC App Test --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;sfdc with edge&quot; parallel=&quot;classes&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sfdc.testCases.TC_UserMenuTest_002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- sfdc with edge --&gt;
 &lt;/suite&gt; &lt;!-- sfdc --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +301,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name"> SFDC App Test (2 classes)</span>
+                <span class="test-name"> SFDC App Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">sfdc with edge (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,35 +330,39 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'userTest02')
 data.setCell(0, 2, 'com.sfdc.testCases.TC_UserMenuTest_002')
-data.setCell(0, 3, 30372);
+data.setCell(0, 3, 35852);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest03')
-data.setCell(1, 2, 'com.sfdc.testCases.TC_LoginTest_001')
-data.setCell(1, 3, 15323);
+data.setCell(1, 1, 'userTest03')
+data.setCell(1, 2, 'com.sfdc.testCases.TC_UserMenuTest_002')
+data.setCell(1, 3, 13152);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'userTest01')
-data.setCell(2, 2, 'com.sfdc.testCases.TC_UserMenuTest_002')
-data.setCell(2, 3, 8474);
+data.setCell(2, 1, 'loginTest03')
+data.setCell(2, 2, 'com.sfdc.testCases.TC_LoginTest_001')
+data.setCell(2, 3, 10520);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest01')
-data.setCell(3, 2, 'com.sfdc.testCases.TC_LoginTest_001')
-data.setCell(3, 3, 7038);
+data.setCell(3, 1, 'userTest01')
+data.setCell(3, 2, 'com.sfdc.testCases.TC_UserMenuTest_002')
+data.setCell(3, 3, 8133);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest05')
+data.setCell(4, 1, 'loginTest01')
 data.setCell(4, 2, 'com.sfdc.testCases.TC_LoginTest_001')
-data.setCell(4, 3, 4399);
+data.setCell(4, 3, 5874);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'loginTest02')
 data.setCell(5, 2, 'com.sfdc.testCases.TC_LoginTest_001')
-data.setCell(5, 3, 2984);
+data.setCell(5, 3, 4136);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginTest04')
+data.setCell(6, 1, 'loginTest05')
 data.setCell(6, 2, 'com.sfdc.testCases.TC_LoginTest_001')
-data.setCell(6, 3, 2660);
+data.setCell(6, 3, 2046);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest04')
+data.setCell(7, 2, 'com.sfdc.testCases.TC_LoginTest_001')
+data.setCell(7, 3, 1945);
 window.suiteTableData['sfdc']= { tableData: data, tableDiv: 'times-div-sfdc'}
 return data;
 }
@@ -329,99 +395,113 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.sfdc.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
+                <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest01</span>
-                <span class="method-start">3388 ms</span>
+                <span class="method-start">2096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10438 ms</span>
+                <span class="method-start">7975 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">10439 ms</span>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">12108 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest02</span>
-                <span class="method-start">12280 ms</span>
+                <span class="method-start">13582 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15265 ms</span>
+                <span class="method-start">17719 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">15267 ms</span>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">17818 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest03</span>
-                <span class="method-start">17725 ms</span>
+                <span class="method-start">19115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33048 ms</span>
+                <span class="method-start">29635 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">33049 ms</span>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">29685 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest04</span>
-                <span class="method-start">35032 ms</span>
+                <span class="method-start">31037 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37693 ms</span>
+                <span class="method-start">32983 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">37695 ms</span>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">33041 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest05</span>
-                <span class="method-start">40746 ms</span>
+                <span class="method-start">34350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45146 ms</span>
+                <span class="method-start">36397 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">45147 ms</span>
+                <span class="method-start">36444 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.sfdc.testCases.TC_UserMenuTest_002</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">45148 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">37309 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userTest01</span>
-                <span class="method-start">47933 ms</span>
+                <span class="method-start">40273 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">56408 ms</span>
+                <span class="method-start">48406 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">56410 ms</span>
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">52536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">userTest02</span>
-                <span class="method-start">59272 ms</span>
+                <span class="method-start">55480 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">89644 ms</span>
+                <span class="method-start">91650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">91863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userTest03</span>
+                <span class="method-start">94864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108016 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">89644 ms</span>
+                <span class="method-start">108223 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

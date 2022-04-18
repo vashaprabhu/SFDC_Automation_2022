@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="sfdc" parallel = "tests" thread-count = "2">
+  <suite name="sfdc" parallel = "classes" thread-count = "2">
+<!--<suite name = "sfdc"> -->
 	<listeners>
 		<listener class-name="com.sfdc.utilities.ReportListener" />
 	</listeners>
 
 	<test name=" SFDC App Test">
+	<parameter name = "browser" value = "chrome" />
 		<classes>
-			<class name="com.sfdc.testCases.TC_LoginTest_001" /> 
+			<class name="com.sfdc.testCases.TC_LoginTest_001" /> 		
+		</classes>
+		</test> 
+		
+		<test name = "sfdc with edge">
+		<parameter name = "browser" value = "edge" />
+		<classes>
 			<class name="com.sfdc.testCases.TC_UserMenuTest_002" />  
 		</classes>
 	</test>
+	
 </suite>

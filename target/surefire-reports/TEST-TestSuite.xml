@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="91.403" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="109.465" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\varsh\AppData\Local\Temp\surefire2483984085182866180\surefirebooter4115151418273578202.jar C:\Users\varsh\AppData\Local\Temp\surefire2483984085182866180 2022-04-04T14-21-52_878-jvmRun1 surefire7550610781002212332tmp surefire_01640503301372348680tmp"/>
+    <property name="sun.java.command" value="C:\Users\varsh\AppData\Local\Temp\surefire5720119308356035084\surefirebooter7785370705095727657.jar C:\Users\varsh\AppData\Local\Temp\surefire5720119308356035084 2022-04-05T22-45-26_370-jvmRun1 surefire5436556597270212697tmp surefire_01050305275024170789tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\varsh\Documents\JavaTraining\Com.PageObjectModel.SFDC\target\test-classes;C:\Users\varsh\Documents\JavaTraining\Com.PageObjectModel.SFDC\target\classes;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\varsh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\varsh\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\varsh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\varsh\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\varsh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\varsh\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\varsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\varsh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\varsh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\varsh\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\varsh\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\varsh\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\varsh\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\varsh\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\varsh\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\varsh\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\varsh\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\varsh\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\varsh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\varsh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\varsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\varsh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\varsh\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\varsh\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\varsh\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\varsh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\varsh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\varsh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\varsh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\varsh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\varsh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\varsh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\varsh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\varsh\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\varsh\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\varsh\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\varsh"/>
@@ -32,11 +32,12 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\varsh\AppData\Local\Temp\surefire2483984085182866180\surefirebooter4115151418273578202.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\varsh\AppData\Local\Temp\surefire5720119308356035084\surefirebooter7785370705095727657.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="webdriver.edge.driver" value="./Drivers\msedgedriver.exe"/>
     <property name="user.name" value="varsh"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -61,154 +62,189 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="loginTest01" classname="com.sfdc.testCases.TC_LoginTest_001" time="7.016">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (TC_LoginTest_001.java :24)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :28)- Username entered
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :30)- entered Password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :32)- Remember me checked
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :34)- clicked on login
+  <testcase name="loginTest01" classname="com.sfdc.testCases.TC_LoginTest_001" time="5.863">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :24)- url opened
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :28)- Username entered
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :30)- entered Password
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :32)- Remember me checked
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :34)- clicked on login
 Varsha lastn
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :39)- login pass
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :39)- login pass
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 2148
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 27678
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1649107317.964][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:21:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649223929.269][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 05, 2022 10:45:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest02" classname="com.sfdc.testCases.TC_LoginTest_001" time="2.952">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 7050
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :51)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :55)- Username entered
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :57)- entered no Password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :59)- Remember me checked
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :61)- clicked on login
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :65)- Please enter your password. error msg
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :66)- login doesnot happened
+  <testcase name="loginTest02" classname="com.sfdc.testCases.TC_LoginTest_001" time="4.128">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (BaseClass.java :111)- time taken for test 10012
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :51)- url opened
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :55)- Username entered
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :57)- entered no Password
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :59)- Remember me checked
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :61)- clicked on login
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :65)- Please enter your password. error msg
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :66)- login doesnot happened
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 48406
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 34047
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1649107327.282][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649223940.774][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 05, 2022 10:45:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest03" classname="com.sfdc.testCases.TC_LoginTest_001" time="15.312">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 2987
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :79)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :83)- Username entered
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :85)- entered Password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :87)- Remember me checked
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :89)- clicked on login
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :93)- clicked on user menu button
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :95)- clicked logout
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :98)- username is available after logout
+  <testcase name="loginTest03" classname="com.sfdc.testCases.TC_LoginTest_001" time="10.521">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (BaseClass.java :111)- time taken for test 4235
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :79)- url opened
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :83)- Username entered
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :85)- entered Password
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :87)- Remember me checked
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :89)- clicked on login
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :93)- clicked on user menu button
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :95)- clicked logout
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :98)- username is available after logout
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 19272
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 32808
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1649107332.821][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649223946.366][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 05, 2022 10:45:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest04" classname="com.sfdc.testCases.TC_LoginTest_001" time="2.659">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 15323
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :109)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :112)- clicked on forgot your password?
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :115)- Entered username to reset password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :117)- clicked on continue btn
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :119)- got reset msg as : Check Your Email
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :121)- Clicked on return btn
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :124)- pass
+  <testcase name="loginTest04" classname="com.sfdc.testCases.TC_LoginTest_001" time="1.941">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (BaseClass.java :111)- time taken for test 10570
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :109)- url opened
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :112)- clicked on forgot your password?
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :115)- Entered username to reset password
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :117)- clicked on continue btn
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :119)- got reset msg as : Check Your Email
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :121)- Clicked on return btn
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :124)- pass
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 22255
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 5611
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1649107350.102][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649223958.260][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 05, 2022 10:45:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest05" classname="com.sfdc.testCases.TC_LoginTest_001" time="4.39">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 2662
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :134)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :137)- Entered wrong username
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :139)- Entered wrong password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :141)- clicked on login
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :143)- Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
+  <testcase name="loginTest05" classname="com.sfdc.testCases.TC_LoginTest_001" time="2.038">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (BaseClass.java :111)- time taken for test 2004
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :134)- url opened
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :137)- Entered wrong username
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :139)- Entered wrong password
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :141)- clicked on login
+ INFO [TestNG-test= SFDC App Test-1] (TC_LoginTest_001.java :143)- Please check your username and password. If you still can't log in, contact your Salesforce administrator. this msg we got
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 44219
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 34137
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1649107355.952][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1649223961.589][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 05, 2022 10:46:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="userTest01" classname="com.sfdc.testCases.TC_UserMenuTest_002" time="8.455">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 4402
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :149)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :152)- Username entered
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :154)- entered Password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :156)- Remember me checked
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :158)- clicked on login
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :23)- clicked on user menu button
+  <testcase name="userTest01" classname="com.sfdc.testCases.TC_UserMenuTest_002" time="8.13">
+    <system-out><![CDATA[ INFO [TestNG-test= SFDC App Test-1] (BaseClass.java :111)- time taken for test 2094
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :149)- url opened
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :152)- Username entered
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :154)- entered Password
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :156)- Remember me checked
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :158)- clicked on login
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :25)- clicked on user menu button
 My Profile
 My Settings
 Developer Console
 Switch to Lightning Experience
 Logout
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :25)- got menu items
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :27)- got menu items
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 18807
+    <system-err><![CDATA[Starting MSEdgeDriver 100.0.1185.29 (1feddedadb2184120dec3f8943e514a865a2930a) on port 17782
 Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1649107362.816][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Apr 05, 2022 10:46:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="userTest02" classname="com.sfdc.testCases.TC_UserMenuTest_002" time="30.354">
-    <system-out><![CDATA[ INFO [TestNG-tests-1] (BaseClass.java :78)- time taken for test 8477
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :149)- url opened
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :152)- Username entered
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :154)- entered Password
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :156)- Remember me checked
- INFO [TestNG-tests-1] (TC_LoginTest_001.java :158)- clicked on login
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :35)- clicked on user menu button
+  <testcase name="userTest02" classname="com.sfdc.testCases.TC_UserMenuTest_002" time="36.019">
+    <failure message="invalid argument&#10;  (Session info: MicrosoftEdge=100.0.1185.29)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VARSHA&apos;, ip: &apos;192.168.1.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61737}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\varsh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 940d6a2f9e6fa10677113de923ea3b9e" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: MicrosoftEdge=100.0.1185.29)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VARSHA', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61737}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\varsh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 940d6a2f9e6fa10677113de923ea3b9e
+	at com.sfdc.testCases.TC_UserMenuTest_002.userTest02(TC_UserMenuTest_002.java:86)
+]]></failure>
+    <system-out><![CDATA[ INFO [TestNG-test=sfdc with edge-1] (BaseClass.java :111)- time taken for test 12263
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :149)- url opened
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :152)- Username entered
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :154)- entered Password
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :156)- Remember me checked
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :158)- clicked on login
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :38)- clicked on user menu button
 yes My Profile
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :38)- waits for my profile
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :41)- waits for my profile
 yes My Profile
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :40)- pass my profile to a webelement variable
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :42)- cicked on myprofile
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :44)- waiting for edit icon
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :47)- clicked on edit icon
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :50)- clicked on about tab
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :52)- last name changed
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :54)- saved last name
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :43)- pass my profile to a webelement variable
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :45)- cicked on myprofile
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :47)- waiting for edit icon
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :50)- clicked on edit icon
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :53)- clicked on about tab
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :55)- last name changed
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :57)- saved last name
 Varsha lastn 
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :60)- pass
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :66)- clicked on post
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :68)- text entered to post
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :70)- pass post shared.
- INFO [TestNG-tests-1] (TC_UserMenuTest_002.java :72)- clicked on file
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :63)- pass
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :69)- clicked on post
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :71)- text entered to post
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :73)- pass post shared.
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :76)- clicked on file
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :79)- clicked on upload from computer
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :82)- File uploaded and saved 
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :84)- clicked on photo upload 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 43760
+    <system-err><![CDATA[Starting MSEdgeDriver 100.0.1185.29 (1feddedadb2184120dec3f8943e514a865a2930a) on port 22280
 Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1649107374.248][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 04, 2022 2:22:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Apr 05, 2022 10:46:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="userTest03" classname="com.sfdc.testCases.TC_UserMenuTest_002" time="13.152">
+    <system-out><![CDATA[ INFO [TestNG-test=sfdc with edge-1] (BaseClass.java :111)- time taken for test 36384
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :149)- url opened
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :152)- Username entered
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :154)- entered Password
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :156)- Remember me checked
+ INFO [TestNG-test=sfdc with edge-1] (TC_LoginTest_001.java :158)- clicked on login
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :95)- clicked on user menu button
+My Settings
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :98)- waits for my Settings
+My Settings
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :101)- clicked on my settings
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :105)- selected personal
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :112)- Login history has clicked and data is in .csv format
+ INFO [TestNG-test=sfdc with edge-1] (TC_UserMenuTest_002.java :125)- Display n layout has clicked
+]]></system-out>
+    <system-err><![CDATA[Starting MSEdgeDriver 100.0.1185.29 (1feddedadb2184120dec3f8943e514a865a2930a) on port 6903
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+Apr 05, 2022 10:47:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

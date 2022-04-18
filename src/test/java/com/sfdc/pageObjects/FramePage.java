@@ -36,5 +36,13 @@ WebDriver ldriver;
 		ldriver.switchTo().defaultContent();
 		return ldriver;
 	}
+	
+	@FindBy(xpath="//iframe[@id='uploadPhotoContentId']")
+	WebElement frameForPhoto;
+	
+	public WebDriver framePhoto() {
+		ldriver.switchTo().frame(frameForPhoto);
+		return ldriver;
+	}
 
 }
