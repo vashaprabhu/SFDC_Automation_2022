@@ -351,6 +351,13 @@ public class HomePage {
 		return dismissAllRem;
 	}
 	
+	@FindBy(xpath="//*[@title='Save']")
+	WebElement saveActivity;
+	
+	public WebElement getSaveActivity() {
+		return saveActivity;
+	}
+	
 	
 	
 	

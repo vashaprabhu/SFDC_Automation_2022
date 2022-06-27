@@ -33,7 +33,7 @@ import com.sfdc.utilities.ReadConfig;
 import com.sfdc.utilities.ReportListener;
 
 import com.sfdc.utilities.ReadConfig;
-@Listeners(com.sfdc.utilities.ReportListener.class)
+//@Listeners(com.sfdc.utilities.ReportListener.class)
 public class BaseClass {
 	
 	static ReadConfig readConfig = new ReadConfig();
@@ -56,45 +56,21 @@ public class BaseClass {
 	
 	public static Logger testLogger;
 	
-	@BeforeMethod
-//	@BeforeClass
-	public void setup() {
-		
-		System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
-//		System.getProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
-//		driver = new FirefoxDriver();
-//		driver.manage().window().maximize();
-		
-//		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
-//		driver = new EdgeDriver();
-//		driver.manage().window().maximize();
-
-		testLogger = LogManager.getLogger(getClass().getSimpleName());
-		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j2.properties");	
-		
-		startTime = System.currentTimeMillis();
-		
-	}
-	
-//	@Parameters("browser")
 //	@BeforeMethod
-//	public void setup(String sbrowser) {
-//		if(sbrowser.equalsIgnoreCase("chrome")) {
-//		System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
+////	@BeforeClass
+//	public void setup() {
+//		
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\varsh\\Documents\\Driver_Dependancies\\chromedriver.exe");
 //		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
-//		}
+//		
 ////		System.getProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
 ////		driver = new FirefoxDriver();
 ////		driver.manage().window().maximize();
-//		else if(sbrowser.equalsIgnoreCase("edge")) {
-//		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
-//		driver = new EdgeDriver();
-//		driver.manage().window().maximize();
-//		}
+//		
+////		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
+////		driver = new EdgeDriver();
+////		driver.manage().window().maximize();
 //
 //		testLogger = LogManager.getLogger(getClass().getSimpleName());
 //		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j2.properties");	
@@ -103,20 +79,44 @@ public class BaseClass {
 //		
 //	}
 	
-	@AfterMethod
-	public void tearDown() {
-//		driver.close();
-		endTime = System.currentTimeMillis();
-		long totalTime = endTime - startTime;
-		testLogger.info("time taken for test "+totalTime);
+	@Parameters("browser")
+	@BeforeMethod
+	public void setup(String sbrowser) {
+		if(sbrowser.equalsIgnoreCase("chrome")) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\varsh\\Documents\\Driver_Dependancies\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		}
+//		System.getProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
+//		driver = new FirefoxDriver();
+//		driver.manage().window().maximize();
+		else if(sbrowser.equalsIgnoreCase("edge")) {
+		System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
+		driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		}
+
+		testLogger = LogManager.getLogger(getClass().getSimpleName());
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j2.properties");	
+		
+		startTime = System.currentTimeMillis();
 		
 	}
 	
-	@AfterClass
-	public void closeDriver() {
+//	@AfterMethod
+//	public void tearDown() {
+//		driver.close();
+//		endTime = System.currentTimeMillis();
+//		long totalTime = endTime - startTime;
+//		testLogger.info("time taken for test "+totalTime);
+//		
+//	}
+//	
+//	@AfterClass
+//	public void closeDriver() {
 //		driver.quit();
-	}
-	
+//	}
+//	
 	public String takeScreenshot(WebDriver driver) throws IOException {
 		TakesScreenshot take = (TakesScreenshot) driver;
 		File src = take.getScreenshotAs(OutputType.FILE);

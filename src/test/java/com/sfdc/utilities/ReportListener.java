@@ -15,12 +15,15 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.sfdc.testCases.BaseClass;
 
+import Runners.runner;
+
 public class ReportListener implements ITestListener{
 	public ExtentReports extent;
 	public ExtentHtmlReporter htmlReport;
-	public ExtentTest test;
+	public static ExtentTest test;
 	
 	BaseClass base = new BaseClass();
+	
 
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getName());

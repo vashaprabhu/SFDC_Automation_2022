@@ -5,14 +5,14 @@
     <listener class-name="com.sfdc.utilities.ReportListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.sfdc.testCases.TC_LoginTest_001">
+      <class name="com.sfdc.testCases.TC_UserMenuTest_002">
         <methods>
           <include name="setup"/>
-          <include name="loginTest01"/>
-          <include name="tearDown"/>
+          <include name="userTest03"/>
         </methods>
-      </class> <!-- com.sfdc.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

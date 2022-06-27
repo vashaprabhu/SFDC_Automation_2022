@@ -19,8 +19,8 @@ public class TC_LoginTest_001 extends BaseClass {
 
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-	@Test(enabled = false)
-	public void loginTest01() {
+	@Test
+	public void loginTest01() throws InterruptedException {
 		
 		driver.get(baseURL);
 		testLogger.info("url opened");
@@ -34,6 +34,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		testLogger.info("Remember me checked");
 		reUtil.clickOnWebElement(lp.getLoginBtn());
 		testLogger.info("clicked on login");
+		Thread.sleep(3000);
 		HomePage hp = new HomePage(driver);
 		String uname = hp.getUserName();
 		System.out.println(uname);
@@ -46,7 +47,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test(enabled = false)
+	@Test
 	public void loginTest02() {
 		
 		driver.get(baseURL);
@@ -73,7 +74,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test(enabled = false)
+	@Test
 	public void loginTest03() throws InterruptedException {
 		
 		driver.get(baseURL);
@@ -103,7 +104,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test(enabled = false)
+	@Test
 	public void loginTest04() {
 		driver.get(baseURL);
 		testLogger.info("url opened");
@@ -128,7 +129,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test(enabled = false)
+	@Test
 	public void loginTest05() {
 		driver.get(baseURL);
 		testLogger.info("url opened");

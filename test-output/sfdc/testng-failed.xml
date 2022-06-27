@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [sfdc]" parallel="classes">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [sfdc]">
   <listeners>
     <listener class-name="com.sfdc.utilities.ReportListener"/>
   </listeners>
-  <test thread-count="2" name="sfdc with edge(failed)" parallel="classes">
+  <test thread-count="2" name="sfdc with edge(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
+      <class name="com.sfdc.testCases.TC_AccountsTest_003">
+        <methods>
+          <include name="setup"/>
+          <include name="accTest04"/>
+          <include name="accTest01"/>
+          <include name="accTest03"/>
+          <include name="accTest02"/>
+        </methods>
+      </class> <!-- com.sfdc.testCases.TC_AccountsTest_003 -->
       <class name="com.sfdc.testCases.TC_UserMenuTest_002">
         <methods>
           <include name="setup"/>
+          <include name="userTest03"/>
+          <include name="userTest04"/>
+          <include name="userTest05"/>
+          <include name="userTest01"/>
           <include name="userTest02"/>
-          <include name="closeDriver"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
     </classes>

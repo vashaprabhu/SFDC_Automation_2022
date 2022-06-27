@@ -26,20 +26,18 @@ public class TC_UserMenuTest_002 extends BaseClass{
 	
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-	@Test(enabled = false)
-	public void userTest01() {
-		driver = tclogin.loginTest06();
-		
-		HomePage hp = new HomePage(driver);
-		reUtil.clickOnWebElement(hp.getUserMenuTab());
-		testLogger.info("clicked on user menu button");
-		hp.getMenuItems();
-		testLogger.info("got menu items");
-		Assert.assertTrue(true);
-		
-	}
-	
-	@Test
+//	@Test
+//	public void userTest01() {
+//		driver = tclogin.loginTest06();
+//		
+//		HomePage hp = new HomePage(driver);
+//		reUtil.clickOnWebElement(hp.getUserMenuTab());
+//		testLogger.info("clicked on user menu button");
+//		hp.getMenuItems();
+//		testLogger.info("got menu items");
+//		Assert.assertTrue(true);	
+//	}	
+//	@Test
 	public void userTest02() throws InterruptedException {
 		
 		driver = tclogin.loginTest06();
@@ -96,7 +94,7 @@ public class TC_UserMenuTest_002 extends BaseClass{
 		reUtil.clickOnWebElement(hp.getSaveBtn());
 		testLogger.info("photo uploaded and saved ");
 	}
-	@Test(enabled = false)
+	@Test
 	public void userTest03() throws InterruptedException {
 		driver = tclogin.loginTest06();
 		
@@ -156,29 +154,52 @@ public class TC_UserMenuTest_002 extends BaseClass{
 		reUtil.clickOnItemOfList(hp.getCalenderOptions(), "Activity Reminders");
 		Assert.assertTrue(driver.getTitle().contains("Activity Reminders"));
 		String windowBeforerRemainder = driver.getCurrentUrl();
+		System.out.println(windowBeforerRemainder);
 		reUtil.clickOnWebElement(hp.getOpenRemainderBtn());
 		Thread.sleep(2000);
 		Set<String> windows = driver.getWindowHandles();
-		System.out.println(windows.size());
+//		int windows = driver.getWindowHandles().size();
+//		System.out.println(windows);
 		for(String winHandle : windows) {
-			if(!(winHandle.equals(windowBeforerRemainder))) {
+			if(!(winHandle.toString().equals(windowBeforerRemainder))) {
+				System.out.println(winHandle.toString());
+				System.out.println(driver.getCurrentUrl());
 				driver.switchTo().window(winHandle);
+				System.out.println(driver.getCurrentUrl());
+				reUtil.clickOnWebElement(hp.getDismissRemBtn());
+				driver.switchTo().defaultContent();
 				System.out.println(driver.getCurrentUrl());
 				Thread.sleep(2000);
 			}
-			
+			reUtil.clickOnWebElement(hp.getSaveActivity());
 			driver.close();
 			
 		}
+//		driver.switchTo().activeElement().click();
+//		for(int i = 0; i<windows; i++) {
+//			if(i == 1) {
+//				reUtil.clickOnWebElement(hp.getDismissRemBtn());
+//				reUtil.clickOnWebElement(hp.getSaveActivity());
+//				driver.close();
+//				Thread.sleep(2000);
+//				
+//			}else {
+//				
+//				reUtil.clickOnWebElement(hp.getSaveActivity());
+//			}
+//		}
+//		driver.close();
+		
+		
 	}
 	
-	@Test(enabled = false)
+//	@Test
 	public void userTest05() throws InterruptedException {
 		TC_LoginTest_001 loginTest = new TC_LoginTest_001();
 		loginTest.loginTest03();
 	}
 	
-	@Test(enabled = false)
+//	@Test
 	public void userTest04() {
 		driver = tclogin.loginTest06();
 		

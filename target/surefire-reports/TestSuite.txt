@@ -1,15 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 109.465 s <<< FAILURE! - in TestSuite
-com.sfdc.testCases.TC_UserMenuTest_002.userTest02  Time elapsed: 36.019 s  <<< FAILURE!
+Tests run: 20, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 186.896 s <<< FAILURE! - in TestSuite
+com.sfdc.testCases.TC_UserMenuTest_002.userTest02  Time elapsed: 35.773 s  <<< FAILURE!
 org.openqa.selenium.InvalidArgumentException: 
 invalid argument
-  (Session info: MicrosoftEdge=100.0.1185.29)
+  (Session info: chrome=102.0.5005.115)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'VARSHA', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61737}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\varsh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 940d6a2f9e6fa10677113de923ea3b9e
-	at com.sfdc.testCases.TC_UserMenuTest_002.userTest02(TC_UserMenuTest_002.java:86)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\varsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16fa5ae0dd7dc89088b45d3d2533b031
+	at com.sfdc.testCases.TC_UserMenuTest_002.userTest02(TC_UserMenuTest_002.java:93)
+
+com.sfdc.testCases.TC_UserMenuTest_002.tearDown  Time elapsed: 23.537 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VARSHA', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\varsh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 029020e2f3fdf7b1452a5a503ada926c
 

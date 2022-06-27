@@ -11,7 +11,7 @@ public class ReadConfig {
 	
 	public ReadConfig()
 	{
-		File src = new File("./Configuration\\config.properties");
+		File src = new File(AppConstants.APP_DETAILS);
 		
 		try {
 			FileInputStream fis = new FileInputStream(src);

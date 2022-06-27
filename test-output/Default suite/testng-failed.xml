@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sfdc.testCases.TC_AccountsTest_003">
+      <class name="com.sfdc.testCases.TC_UserMenuTest_002">
         <methods>
           <include name="setup"/>
-          <include name="accTest03"/>
-          <include name="closeDriver"/>
-          <include name="tearDown"/>
+          <include name="userTest03"/>
         </methods>
-      </class> <!-- com.sfdc.testCases.TC_AccountsTest_003 -->
+      </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
