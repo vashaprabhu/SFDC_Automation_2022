@@ -1748,3 +1748,71 @@
 2022-06-17 17:11:46,673 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
 2022-06-17 17:11:47,276 [main] INFO TC_UserMenuTest_002 - my email settings
 2022-06-17 17:11:47,560 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-05 22:05:14,403 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-05 22:05:14,533 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-05 22:05:14,641 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-05 22:05:14,844 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-05 22:05:15,199 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-05 22:05:23,613 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-05 22:05:23,708 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-05 22:05:24,275 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-05 22:05:29,399 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-05 22:05:30,637 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-05 22:05:30,817 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-05 22:05:31,732 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-05 22:05:32,697 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-05 22:05:33,274 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-05 22:05:33,917 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-05 22:05:34,186 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-05 22:05:42,833 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-05 22:05:43,022 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-05 22:05:43,543 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-05 22:05:43,926 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-05 22:05:52,699 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-05 22:05:52,790 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-05 22:05:52,871 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-05 22:05:53,217 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-05 22:05:58,339 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-05 22:05:59,057 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-05 22:05:59,261 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-05 22:05:59,849 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-05 22:06:00,573 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-05 22:06:01,284 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-05 22:06:01,902 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-05 22:06:02,256 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-05 22:06:09,401 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-05 22:06:09,599 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-05 22:06:09,772 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-05 22:06:10,408 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-05 22:06:10,709 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-05 22:06:16,221 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-05 22:06:16,296 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-05 22:06:16,662 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-05 22:06:21,770 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-05 22:06:22,421 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-05 22:06:22,612 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-05 22:06:23,546 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-05 22:06:24,414 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-05 22:06:25,207 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-05 22:06:27,331 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-05 22:06:27,702 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-05 22:06:35,145 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-05 22:06:35,308 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-05 22:06:35,655 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-05 22:06:36,016 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-05 22:06:37,957 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-05 22:06:41,108 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-05 22:06:41,171 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-05 22:06:41,672 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-05 22:06:46,847 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-05 22:06:48,002 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-05 22:06:48,194 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-05 22:06:48,730 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-05 22:06:49,864 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-05 22:06:50,862 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-05 22:06:51,641 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-05 22:06:52,122 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-07 21:32:26,909 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-07 21:32:27,085 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-07 21:32:28,021 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-07 21:32:28,333 [main] INFO TC_UserMenuTest_002 - Remember me checked

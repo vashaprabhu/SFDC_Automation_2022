@@ -26,7 +26,7 @@ public class TC_UserMenuTest_002 extends BaseClass{
 	
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-//	@Test
+//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 //	public void userTest01() {
 //		driver = tclogin.loginTest06();
 //		
@@ -37,7 +37,7 @@ public class TC_UserMenuTest_002 extends BaseClass{
 //		testLogger.info("got menu items");
 //		Assert.assertTrue(true);	
 //	}	
-//	@Test
+//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest02() throws InterruptedException {
 		
 		driver = tclogin.loginTest06();
@@ -94,7 +94,7 @@ public class TC_UserMenuTest_002 extends BaseClass{
 		reUtil.clickOnWebElement(hp.getSaveBtn());
 		testLogger.info("photo uploaded and saved ");
 	}
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest03() throws InterruptedException {
 		driver = tclogin.loginTest06();
 		
@@ -193,13 +193,13 @@ public class TC_UserMenuTest_002 extends BaseClass{
 		
 	}
 	
-//	@Test
+//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest05() throws InterruptedException {
 		TC_LoginTest_001 loginTest = new TC_LoginTest_001();
 		loginTest.loginTest03();
 	}
 	
-//	@Test
+//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest04() {
 		driver = tclogin.loginTest06();
 		

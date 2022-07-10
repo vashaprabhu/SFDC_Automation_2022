@@ -18,7 +18,7 @@ public class TC_AccountsTest_003 extends BaseClass{
 	
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void accTest01() throws InterruptedException {
 		
 		driver = tclogin.loginTest06();
@@ -45,7 +45,7 @@ public class TC_AccountsTest_003 extends BaseClass{
 	
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void accTest02() throws InterruptedException {
 		driver = tclogin.loginTest06();
 		AccountsPage ap = new AccountsPage(driver);
@@ -75,7 +75,7 @@ public class TC_AccountsTest_003 extends BaseClass{
 			}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void accTest03() throws InterruptedException {
 		driver = tclogin.loginTest06();
 		AccountsPage ap = new AccountsPage(driver);
@@ -113,7 +113,7 @@ public class TC_AccountsTest_003 extends BaseClass{
 		reUtil.clickOnWebElement(ap.getEditSaveButton());
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void accTest04() throws InterruptedException {
 		driver = tclogin.loginTest06();
 		AccountsPage ap = new AccountsPage(driver);

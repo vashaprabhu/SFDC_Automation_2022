@@ -10,11 +10,7 @@
       <class name="com.sfdc.testCases.TC_UserMenuTest_002">
         <methods>
           <include name="setup"/>
-          <include name="userTest04"/>
-          <include name="userTest05"/>
-          <include name="userTest02"/>
-          <include name="closeDriver"/>
-          <include name="tearDown"/>
+          <include name="userTest03"/>
         </methods>
       </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
     </classes>

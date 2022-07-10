@@ -1,7 +1,7 @@
 Feature: LoginPage Feature
 Background:
 Given User launches the loginpage
-
+#@ignore
 @Smoke
 Scenario Outline: Login details
 When User enters "<username>" and "<password>"

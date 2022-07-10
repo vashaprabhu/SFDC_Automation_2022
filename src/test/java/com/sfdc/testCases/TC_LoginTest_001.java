@@ -19,7 +19,7 @@ public class TC_LoginTest_001 extends BaseClass {
 
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void loginTest01() throws InterruptedException {
 		
 		driver.get(baseURL);
@@ -47,7 +47,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void loginTest02() {
 		
 		driver.get(baseURL);
@@ -74,7 +74,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void loginTest03() throws InterruptedException {
 		
 		driver.get(baseURL);
@@ -104,7 +104,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void loginTest04() {
 		driver.get(baseURL);
 		testLogger.info("url opened");
@@ -129,7 +129,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		}
 	}
 	
-	@Test
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void loginTest05() {
 		driver.get(baseURL);
 		testLogger.info("url opened");

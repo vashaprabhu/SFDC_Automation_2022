@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = {"src\\test\\java\\com\\featureFiles"},
 					glue = {"com.stepDefnitionFiles"}, 
 					plugin = { "pretty" , "html:target/cucumber-reports.html"},
-					monochrome = true, tags = "@Smoke")
+					monochrome = true, tags = "@Smoke")   /* to ignore perticular scenario we should give tags = "not @ignore" */
 public class runner extends AbstractTestNGCucumberTests{
 
 }
