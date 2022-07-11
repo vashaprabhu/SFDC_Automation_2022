@@ -1816,3 +1816,185 @@
 2022-07-07 21:32:27,085 - TC_UserMenuTest_002 -INFO - Username entered
 2022-07-07 21:32:28,021 - TC_UserMenuTest_002 -INFO - entered Password
 2022-07-07 21:32:28,333 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:36:56,605 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:36:56,726 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:36:56,806 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:36:56,881 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:36:58,708 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:37:01,645 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:37:01,735 - TC_UserMenuTest_002 -INFO - got menu items
+2022-07-10 17:37:05,886 - TC_UserMenuTest_002 -INFO - time taken for test 10764
+2022-07-10 17:37:08,493 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:37:08,588 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:37:08,684 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:37:08,745 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:37:10,373 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:37:15,721 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:37:15,806 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-07-10 17:37:16,300 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-07-10 17:37:16,302 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-07-10 17:37:17,444 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-07-10 17:37:21,063 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-07-10 17:37:24,474 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-07-10 17:37:24,609 - TC_UserMenuTest_002 -INFO - last name changed
+2022-07-10 17:37:25,416 - TC_UserMenuTest_002 -INFO - saved last name
+2022-07-10 17:37:30,544 - TC_UserMenuTest_002 -INFO - pass
+2022-07-10 17:37:30,720 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-07-10 17:37:30,923 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-07-10 17:37:31,014 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-07-10 17:37:33,163 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-07-10 17:37:38,255 - TC_UserMenuTest_002 -INFO - clicked on upload from computer
+2022-07-10 17:37:38,401 - TC_UserMenuTest_002 -INFO - File uploaded and saved 
+2022-07-10 17:37:39,929 - TC_UserMenuTest_002 -INFO - clicked on photo upload 
+2022-07-10 17:37:49,245 - TC_UserMenuTest_002 -INFO - time taken for test 42157
+2022-07-10 17:37:51,674 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:37:51,790 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:37:52,177 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:37:52,534 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:37:54,269 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:37:56,872 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:37:56,930 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-07-10 17:37:57,429 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-07-10 17:37:57,429 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-07-10 17:37:58,588 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-07-10 17:38:02,080 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-07-10 17:38:05,482 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-07-10 17:38:05,597 - TC_UserMenuTest_002 -INFO - last name changed
+2022-07-10 17:38:07,503 - TC_UserMenuTest_002 -INFO - saved last name
+2022-07-10 17:38:12,602 - TC_UserMenuTest_002 -INFO - pass
+2022-07-10 17:38:12,770 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-07-10 17:38:12,988 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-07-10 17:38:13,097 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-07-10 17:38:15,239 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-07-10 17:38:20,328 - TC_UserMenuTest_002 -INFO - clicked on upload from computer
+2022-07-10 17:38:20,470 - TC_UserMenuTest_002 -INFO - File uploaded and saved 
+2022-07-10 17:38:21,967 - TC_UserMenuTest_002 -INFO - clicked on photo upload 
+2022-07-10 17:38:31,220 - TC_UserMenuTest_002 -INFO - time taken for test 40605
+2022-07-10 17:38:33,760 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:38:33,843 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:38:33,947 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:38:34,013 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:38:34,207 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:38:38,449 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:38:38,491 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-07-10 17:38:39,988 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-07-10 17:38:39,988 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-07-10 17:38:42,144 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-07-10 17:38:45,682 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-07-10 17:38:48,954 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-07-10 17:38:49,065 - TC_UserMenuTest_002 -INFO - last name changed
+2022-07-10 17:38:50,000 - TC_UserMenuTest_002 -INFO - saved last name
+2022-07-10 17:38:55,116 - TC_UserMenuTest_002 -INFO - pass
+2022-07-10 17:38:55,295 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-07-10 17:38:55,490 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-07-10 17:38:55,594 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-07-10 17:38:57,747 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-07-10 17:39:02,824 - TC_UserMenuTest_002 -INFO - clicked on upload from computer
+2022-07-10 17:39:02,964 - TC_UserMenuTest_002 -INFO - File uploaded and saved 
+2022-07-10 17:39:04,492 - TC_UserMenuTest_002 -INFO - time taken for test 32037
+2022-07-10 17:39:06,634 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:39:06,746 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:39:06,831 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:39:06,904 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:39:08,654 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:39:11,322 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:39:11,378 - TC_UserMenuTest_002 -INFO - waits for my profile
+2022-07-10 17:39:13,886 - TC_UserMenuTest_002 -INFO - pass my profile to a webelement variable
+2022-07-10 17:39:13,887 - TC_UserMenuTest_002 -INFO - cicked on myprofile
+2022-07-10 17:39:17,150 - TC_UserMenuTest_002 -INFO - waiting for edit icon
+2022-07-10 17:39:20,708 - TC_UserMenuTest_002 -INFO - clicked on edit icon
+2022-07-10 17:39:23,965 - TC_UserMenuTest_002 -INFO - clicked on about tab
+2022-07-10 17:39:24,097 - TC_UserMenuTest_002 -INFO - last name changed
+2022-07-10 17:39:25,066 - TC_UserMenuTest_002 -INFO - saved last name
+2022-07-10 17:39:30,154 - TC_UserMenuTest_002 -INFO - pass
+2022-07-10 17:39:30,319 - TC_UserMenuTest_002 -INFO - clicked on post
+2022-07-10 17:39:30,542 - TC_UserMenuTest_002 -INFO - text entered to post
+2022-07-10 17:39:30,659 - TC_UserMenuTest_002 -INFO - pass post shared.
+2022-07-10 17:39:32,807 - TC_UserMenuTest_002 -INFO - clicked on file
+2022-07-10 17:39:37,879 - TC_UserMenuTest_002 -INFO - clicked on upload from computer
+2022-07-10 17:39:37,997 - TC_UserMenuTest_002 -INFO - File uploaded and saved 
+2022-07-10 17:39:43,607 - TC_UserMenuTest_002 -INFO - time taken for test 37872
+2022-07-10 17:39:46,524 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:39:46,633 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:39:46,731 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:39:46,797 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:39:48,625 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:39:51,495 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:39:51,546 - TC_UserMenuTest_002 -INFO - waits for my Settings
+2022-07-10 17:39:52,000 - TC_UserMenuTest_002 -INFO - clicked on my settings
+2022-07-10 17:39:57,122 - TC_UserMenuTest_002 -INFO - selected personal
+2022-07-10 17:39:57,846 - TC_UserMenuTest_002 -INFO - clicked on login history
+2022-07-10 17:39:57,978 - TC_UserMenuTest_002 -INFO - clicked on Display n layout
+2022-07-10 17:39:58,459 - TC_UserMenuTest_002 -INFO - clicked on Customise My tabs
+2022-07-10 17:39:59,157 - TC_UserMenuTest_002 -INFO - clicked on SalesForce Chatter
+2022-07-10 17:39:59,705 - TC_UserMenuTest_002 -INFO - email setting has been clicked
+2022-07-10 17:40:00,334 - TC_UserMenuTest_002 -INFO - my email settings
+2022-07-10 17:40:00,591 - TC_UserMenuTest_002 -INFO - entered email name and email address
+2022-07-10 17:40:04,515 - TC_UserMenuTest_002 -INFO - time taken for test 19672
+2022-07-10 17:40:07,076 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:40:07,206 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:40:07,340 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:40:07,467 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:40:07,755 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:40:12,509 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:40:12,567 - TC_UserMenuTest_002 -INFO - waits for my Settings
+2022-07-10 17:40:12,881 - TC_UserMenuTest_002 -INFO - clicked on my settings
+2022-07-10 17:40:18,001 - TC_UserMenuTest_002 -INFO - selected personal
+2022-07-10 17:40:18,639 - TC_UserMenuTest_002 -INFO - clicked on login history
+2022-07-10 17:40:18,875 - TC_UserMenuTest_002 -INFO - clicked on Display n layout
+2022-07-10 17:40:19,380 - TC_UserMenuTest_002 -INFO - clicked on Customise My tabs
+2022-07-10 17:40:20,054 - TC_UserMenuTest_002 -INFO - clicked on SalesForce Chatter
+2022-07-10 17:40:20,762 - TC_UserMenuTest_002 -INFO - email setting has been clicked
+2022-07-10 17:40:21,408 - TC_UserMenuTest_002 -INFO - my email settings
+2022-07-10 17:40:21,714 - TC_UserMenuTest_002 -INFO - entered email name and email address
+2022-07-10 17:40:25,500 - TC_UserMenuTest_002 -INFO - time taken for test 19319
+2022-07-10 17:40:27,894 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:40:27,999 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:40:28,113 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:40:28,195 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:40:28,558 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:40:32,914 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:40:32,977 - TC_UserMenuTest_002 -INFO - waits for my Settings
+2022-07-10 17:40:33,255 - TC_UserMenuTest_002 -INFO - clicked on my settings
+2022-07-10 17:40:38,384 - TC_UserMenuTest_002 -INFO - selected personal
+2022-07-10 17:40:38,985 - TC_UserMenuTest_002 -INFO - clicked on login history
+2022-07-10 17:40:39,152 - TC_UserMenuTest_002 -INFO - clicked on Display n layout
+2022-07-10 17:40:39,657 - TC_UserMenuTest_002 -INFO - clicked on Customise My tabs
+2022-07-10 17:40:40,342 - TC_UserMenuTest_002 -INFO - clicked on SalesForce Chatter
+2022-07-10 17:40:41,030 - TC_UserMenuTest_002 -INFO - email setting has been clicked
+2022-07-10 17:40:41,535 - TC_UserMenuTest_002 -INFO - my email settings
+2022-07-10 17:40:41,839 - TC_UserMenuTest_002 -INFO - entered email name and email address
+2022-07-10 17:40:46,106 - TC_UserMenuTest_002 -INFO - time taken for test 19099
+2022-07-10 17:40:48,581 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:40:48,701 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:40:48,858 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:40:49,438 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:40:51,256 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:40:53,687 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:40:53,749 - TC_UserMenuTest_002 -INFO - waits for my Settings
+2022-07-10 17:40:54,075 - TC_UserMenuTest_002 -INFO - clicked on my settings
+2022-07-10 17:40:59,228 - TC_UserMenuTest_002 -INFO - selected personal
+2022-07-10 17:40:59,809 - TC_UserMenuTest_002 -INFO - clicked on login history
+2022-07-10 17:41:00,000 - TC_UserMenuTest_002 -INFO - clicked on Display n layout
+2022-07-10 17:41:00,570 - TC_UserMenuTest_002 -INFO - clicked on Customise My tabs
+2022-07-10 17:41:01,300 - TC_UserMenuTest_002 -INFO - clicked on SalesForce Chatter
+2022-07-10 17:41:01,964 - TC_UserMenuTest_002 -INFO - email setting has been clicked
+2022-07-10 17:41:02,664 - TC_UserMenuTest_002 -INFO - my email settings
+2022-07-10 17:41:02,990 - TC_UserMenuTest_002 -INFO - entered email name and email address
+2022-07-10 17:41:07,077 - TC_UserMenuTest_002 -INFO - time taken for test 19419
+2022-07-10 17:41:09,660 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:41:09,766 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:41:09,893 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:41:10,140 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:41:11,950 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:41:14,822 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:41:15,941 - TC_UserMenuTest_002 -INFO - time taken for test 7192
+2022-07-10 17:41:18,310 - TC_UserMenuTest_002 -INFO - url opened
+2022-07-10 17:41:18,432 - TC_UserMenuTest_002 -INFO - Username entered
+2022-07-10 17:41:18,531 - TC_UserMenuTest_002 -INFO - entered Password
+2022-07-10 17:41:18,767 - TC_UserMenuTest_002 -INFO - Remember me checked
+2022-07-10 17:41:20,473 - TC_UserMenuTest_002 -INFO - clicked on login
+2022-07-10 17:41:23,050 - TC_UserMenuTest_002 -INFO - clicked on user menu button
+2022-07-10 17:41:23,442 - TC_UserMenuTest_002 -INFO - clicked logout
+2022-07-10 17:41:26,521 - TC_UserMenuTest_002 -INFO - username is available after logout
+2022-07-10 17:41:26,706 - TC_UserMenuTest_002 -INFO - time taken for test 9350

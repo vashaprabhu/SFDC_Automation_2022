@@ -193,13 +193,13 @@ public class TC_UserMenuTest_002 extends BaseClass{
 		
 	}
 	
-//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest05() throws InterruptedException {
 		TC_LoginTest_001 loginTest = new TC_LoginTest_001();
 		loginTest.loginTest03();
 	}
 	
-//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest04() {
 		driver = tclogin.loginTest06();
 		

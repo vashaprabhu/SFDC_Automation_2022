@@ -9,9 +9,9 @@
   <test  name="Test">
   <parameter name = "browser" value = "chrome" />
     <classes>
-      <!--  <class name="com.sfdc.testCases.TC_LoginTest_001"/>-->
+      <class name="com.sfdc.testCases.TC_LoginTest_001"/>
       <class name="com.sfdc.testCases.TC_UserMenuTest_002" />  
-	  <!--  <class name="com.sfdc.testCases.TC_AccountsTest_003" /> -->
+	  <class name="com.sfdc.testCases.TC_AccountsTest_003" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

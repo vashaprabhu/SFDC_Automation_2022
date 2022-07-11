@@ -11,6 +11,9 @@
         <methods>
           <include name="setup"/>
           <include name="userTest03"/>
+          <include name="userTest02"/>
+          <include name="closeDriver"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.sfdc.testCases.TC_UserMenuTest_002 -->
     </classes>
