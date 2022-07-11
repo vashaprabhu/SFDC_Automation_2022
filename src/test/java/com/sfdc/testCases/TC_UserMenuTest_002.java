@@ -26,18 +26,18 @@ public class TC_UserMenuTest_002 extends BaseClass{
 	
 	ReusableUtilities reUtil = new ReusableUtilities();
 	
-//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
-//	public void userTest01() {
-//		driver = tclogin.loginTest06();
-//		
-//		HomePage hp = new HomePage(driver);
-//		reUtil.clickOnWebElement(hp.getUserMenuTab());
-//		testLogger.info("clicked on user menu button");
-//		hp.getMenuItems();
-//		testLogger.info("got menu items");
-//		Assert.assertTrue(true);	
-//	}	
-//	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
+	public void userTest01() {
+		driver = tclogin.loginTest06();
+		
+		HomePage hp = new HomePage(driver);
+		reUtil.clickOnWebElement(hp.getUserMenuTab());
+		testLogger.info("clicked on user menu button");
+		hp.getMenuItems();
+		testLogger.info("got menu items");
+		Assert.assertTrue(true);	
+	}	
+	@Test(retryAnalyzer = com.sfdc.utilities.RetryFailedTests.class)
 	public void userTest02() throws InterruptedException {
 		
 		driver = tclogin.loginTest06();

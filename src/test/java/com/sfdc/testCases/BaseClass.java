@@ -103,20 +103,20 @@ public class BaseClass {
 		
 	}
 	
-//	@AfterMethod
-//	public void tearDown() {
-//		driver.close();
-//		endTime = System.currentTimeMillis();
-//		long totalTime = endTime - startTime;
-//		testLogger.info("time taken for test "+totalTime);
-//		
-//	}
-//	
-//	@AfterClass
-//	public void closeDriver() {
-//		driver.quit();
-//	}
-//	
+	@AfterMethod
+	public void tearDown() {
+		driver.close();
+		endTime = System.currentTimeMillis();
+		long totalTime = endTime - startTime;
+		testLogger.info("time taken for test "+totalTime);
+		
+	}
+	
+	@AfterClass
+	public void closeDriver() {
+		driver.quit();
+	}
+	
 	public String takeScreenshot(WebDriver driver) throws IOException {
 		TakesScreenshot take = (TakesScreenshot) driver;
 		File src = take.getScreenshotAs(OutputType.FILE);

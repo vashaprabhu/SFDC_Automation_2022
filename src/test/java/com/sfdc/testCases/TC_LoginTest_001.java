@@ -144,7 +144,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		testLogger.info(lp.msgAfterWrongCredentials()+" this msg we got");
 		
 	}
-//	@Test
+	@Test
 	public WebDriver loginTest06() {
 		driver.get(baseURL);
 		testLogger.info("url opened");
