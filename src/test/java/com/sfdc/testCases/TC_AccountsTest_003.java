@@ -35,7 +35,7 @@ public class TC_AccountsTest_003 extends BaseClass{
 		reUtil.setValueToElement(ap.getAccNameTBox(),accNameEntered );
 		reUtil.clickOnWebElement(ap.getAccSaveBtn());
 		Thread.sleep(2000);
-		reUtil.clickOnWebElement(ap.getClosedCustomerKnow());/*838*/
+//		reUtil.clickOnWebElement(ap.getClosedCustomerKnow());/*838*/
 		
 		if(ap.getAccName().equals(accNameEntered)) {
 			sa.assertTrue(true);
