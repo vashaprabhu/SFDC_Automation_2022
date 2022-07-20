@@ -2045,3 +2045,178 @@
 2022-07-13 16:32:10,542 [main] INFO TC_UserMenuTest_002 - cicked on myprofile
 2022-07-13 16:32:12,250 [main] INFO TC_UserMenuTest_002 - waiting for edit icon
 2022-07-13 16:32:15,887 [main] INFO TC_UserMenuTest_002 - clicked on edit icon
+2022-07-19 18:50:55,390 [main] INFO TC_LoginTest_001 - url opened
+2022-07-19 18:50:55,593 [main] INFO TC_LoginTest_001 - Username entered
+2022-07-19 18:50:55,745 [main] INFO TC_LoginTest_001 - entered Password
+2022-07-19 18:50:55,848 [main] INFO TC_LoginTest_001 - Remember me checked
+2022-07-19 18:50:56,080 [main] INFO TC_LoginTest_001 - clicked on login
+2022-07-19 18:51:03,654 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:51:03,733 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:51:03,816 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:51:03,915 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:51:04,118 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:51:08,903 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:51:09,030 [main] INFO TC_UserMenuTest_002 - got menu items
+2022-07-19 18:51:13,144 [main] INFO TC_UserMenuTest_002 - time taken for test 12500
+2022-07-19 18:51:17,146 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:51:17,242 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:51:17,367 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:51:17,461 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:51:21,312 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:51:23,946 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:51:24,029 [main] INFO TC_UserMenuTest_002 - waits for my profile
+2022-07-19 18:51:24,928 [main] INFO TC_UserMenuTest_002 - pass my profile to a webelement variable
+2022-07-19 18:51:24,928 [main] INFO TC_UserMenuTest_002 - cicked on myprofile
+2022-07-19 18:51:26,621 [main] INFO TC_UserMenuTest_002 - waiting for edit icon
+2022-07-19 18:51:30,266 [main] INFO TC_UserMenuTest_002 - clicked on edit icon
+2022-07-19 18:51:33,608 [main] INFO TC_UserMenuTest_002 - clicked on about tab
+2022-07-19 18:51:33,733 [main] INFO TC_UserMenuTest_002 - last name changed
+2022-07-19 18:51:35,043 [main] INFO TC_UserMenuTest_002 - saved last name
+2022-07-19 18:51:40,125 [main] INFO TC_UserMenuTest_002 - pass
+2022-07-19 18:51:40,290 [main] INFO TC_UserMenuTest_002 - clicked on post
+2022-07-19 18:51:40,566 [main] INFO TC_UserMenuTest_002 - text entered to post
+2022-07-19 18:51:40,672 [main] INFO TC_UserMenuTest_002 - pass post shared.
+2022-07-19 18:51:42,784 [main] INFO TC_UserMenuTest_002 - clicked on file
+2022-07-19 18:51:47,858 [main] INFO TC_UserMenuTest_002 - clicked on upload from computer
+2022-07-19 18:51:48,002 [main] INFO TC_UserMenuTest_002 - File uploaded and saved 
+2022-07-19 18:51:49,579 [main] INFO TC_UserMenuTest_002 - time taken for test 35014
+2022-07-19 18:51:53,659 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:51:53,755 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:51:53,845 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:51:53,906 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:51:56,286 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:51:59,022 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:51:59,080 [main] INFO TC_UserMenuTest_002 - waits for my profile
+2022-07-19 18:51:59,547 [main] INFO TC_UserMenuTest_002 - pass my profile to a webelement variable
+2022-07-19 18:51:59,547 [main] INFO TC_UserMenuTest_002 - cicked on myprofile
+2022-07-19 18:52:00,696 [main] INFO TC_UserMenuTest_002 - waiting for edit icon
+2022-07-19 18:52:04,096 [main] INFO TC_UserMenuTest_002 - clicked on edit icon
+2022-07-19 18:52:07,509 [main] INFO TC_UserMenuTest_002 - clicked on about tab
+2022-07-19 18:52:07,638 [main] INFO TC_UserMenuTest_002 - last name changed
+2022-07-19 18:52:08,768 [main] INFO TC_UserMenuTest_002 - saved last name
+2022-07-19 18:52:13,856 [main] INFO TC_UserMenuTest_002 - pass
+2022-07-19 18:52:13,993 [main] INFO TC_UserMenuTest_002 - clicked on post
+2022-07-19 18:52:14,159 [main] INFO TC_UserMenuTest_002 - text entered to post
+2022-07-19 18:52:14,260 [main] INFO TC_UserMenuTest_002 - pass post shared.
+2022-07-19 18:52:16,395 [main] INFO TC_UserMenuTest_002 - clicked on file
+2022-07-19 18:52:21,473 [main] INFO TC_UserMenuTest_002 - clicked on upload from computer
+2022-07-19 18:52:21,586 [main] INFO TC_UserMenuTest_002 - File uploaded and saved 
+2022-07-19 18:52:27,062 [main] INFO TC_UserMenuTest_002 - time taken for test 36199
+2022-07-19 18:52:30,316 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:52:30,406 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:52:30,493 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:52:30,543 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:52:32,432 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:52:35,418 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:52:35,463 [main] INFO TC_UserMenuTest_002 - waits for my profile
+2022-07-19 18:52:36,083 [main] INFO TC_UserMenuTest_002 - pass my profile to a webelement variable
+2022-07-19 18:52:36,083 [main] INFO TC_UserMenuTest_002 - cicked on myprofile
+2022-07-19 18:52:37,236 [main] INFO TC_UserMenuTest_002 - waiting for edit icon
+2022-07-19 18:52:40,318 [main] INFO TC_UserMenuTest_002 - clicked on edit icon
+2022-07-19 18:52:47,523 [main] INFO TC_UserMenuTest_002 - time taken for test 19255
+2022-07-19 18:52:51,396 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:52:51,484 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:52:51,555 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:52:51,615 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:52:54,032 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:52:56,593 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:52:56,651 [main] INFO TC_UserMenuTest_002 - waits for my profile
+2022-07-19 18:52:57,220 [main] INFO TC_UserMenuTest_002 - pass my profile to a webelement variable
+2022-07-19 18:52:57,220 [main] INFO TC_UserMenuTest_002 - cicked on myprofile
+2022-07-19 18:52:58,376 [main] INFO TC_UserMenuTest_002 - waiting for edit icon
+2022-07-19 18:53:01,979 [main] INFO TC_UserMenuTest_002 - clicked on edit icon
+2022-07-19 18:53:05,365 [main] INFO TC_UserMenuTest_002 - clicked on about tab
+2022-07-19 18:53:05,476 [main] INFO TC_UserMenuTest_002 - last name changed
+2022-07-19 18:53:06,423 [main] INFO TC_UserMenuTest_002 - saved last name
+2022-07-19 18:53:11,511 [main] INFO TC_UserMenuTest_002 - pass
+2022-07-19 18:53:11,653 [main] INFO TC_UserMenuTest_002 - clicked on post
+2022-07-19 18:53:11,848 [main] INFO TC_UserMenuTest_002 - text entered to post
+2022-07-19 18:53:11,941 [main] INFO TC_UserMenuTest_002 - pass post shared.
+2022-07-19 18:53:14,076 [main] INFO TC_UserMenuTest_002 - clicked on file
+2022-07-19 18:53:19,156 [main] INFO TC_UserMenuTest_002 - clicked on upload from computer
+2022-07-19 18:53:19,268 [main] INFO TC_UserMenuTest_002 - File uploaded and saved 
+2022-07-19 18:53:20,860 [main] INFO TC_UserMenuTest_002 - time taken for test 32137
+2022-07-19 18:53:24,627 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:53:24,703 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:53:24,781 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:53:24,839 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:53:28,741 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:53:31,506 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:53:31,560 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-19 18:53:31,998 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-19 18:53:37,093 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-19 18:53:37,882 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-19 18:53:38,033 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-19 18:53:38,711 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-19 18:53:39,281 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-19 18:53:39,855 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-19 18:53:40,443 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-19 18:53:40,746 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-19 18:53:44,974 [main] INFO TC_UserMenuTest_002 - time taken for test 22870
+2022-07-19 18:53:49,372 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:53:49,462 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:53:49,556 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:53:49,639 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:53:54,608 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:53:54,669 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:53:54,723 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-19 18:53:55,050 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-19 18:54:00,154 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-19 18:54:00,821 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-19 18:54:00,987 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-19 18:54:01,878 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-19 18:54:02,607 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-19 18:54:03,185 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-19 18:54:04,153 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-19 18:54:04,462 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-19 18:54:08,449 [main] INFO TC_UserMenuTest_002 - time taken for test 21848
+2022-07-19 18:54:12,595 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:54:12,697 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:54:12,791 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:54:12,880 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:54:18,106 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:54:18,167 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:54:18,226 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-19 18:54:18,541 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-19 18:54:23,644 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-19 18:54:24,147 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-19 18:54:24,295 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-19 18:54:24,836 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-19 18:54:25,425 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-19 18:54:26,094 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-19 18:54:26,593 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-19 18:54:26,969 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-19 18:54:30,691 [main] INFO TC_UserMenuTest_002 - time taken for test 20826
+2022-07-19 18:54:34,730 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:54:34,818 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:54:34,910 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:54:34,980 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:54:37,582 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:54:40,727 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:54:40,785 [main] INFO TC_UserMenuTest_002 - waits for my Settings
+2022-07-19 18:54:41,198 [main] INFO TC_UserMenuTest_002 - clicked on my settings
+2022-07-19 18:54:46,315 [main] INFO TC_UserMenuTest_002 - selected personal
+2022-07-19 18:54:47,078 [main] INFO TC_UserMenuTest_002 - clicked on login history
+2022-07-19 18:54:47,239 [main] INFO TC_UserMenuTest_002 - clicked on Display n layout
+2022-07-19 18:54:47,739 [main] INFO TC_UserMenuTest_002 - clicked on Customise My tabs
+2022-07-19 18:54:48,340 [main] INFO TC_UserMenuTest_002 - clicked on SalesForce Chatter
+2022-07-19 18:54:48,958 [main] INFO TC_UserMenuTest_002 - email setting has been clicked
+2022-07-19 18:54:49,441 [main] INFO TC_UserMenuTest_002 - my email settings
+2022-07-19 18:54:49,734 [main] INFO TC_UserMenuTest_002 - entered email name and email address
+2022-07-19 18:54:54,013 [main] INFO TC_UserMenuTest_002 - time taken for test 21818
+2022-07-19 18:54:58,402 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:54:58,520 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:54:58,642 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:54:58,737 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:55:01,273 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:55:03,882 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:55:04,837 [main] INFO TC_UserMenuTest_002 - time taken for test 9268
+2022-07-19 18:55:14,333 [main] INFO TC_UserMenuTest_002 - url opened
+2022-07-19 18:55:14,419 [main] INFO TC_UserMenuTest_002 - Username entered
+2022-07-19 18:55:14,525 [main] INFO TC_UserMenuTest_002 - entered Password
+2022-07-19 18:55:14,612 [main] INFO TC_UserMenuTest_002 - Remember me checked
+2022-07-19 18:55:14,731 [main] INFO TC_UserMenuTest_002 - clicked on login
+2022-07-19 18:55:20,633 [main] INFO TC_UserMenuTest_002 - clicked on user menu button
+2022-07-19 18:55:21,187 [main] INFO TC_UserMenuTest_002 - clicked logout
+2022-07-19 18:55:24,245 [main] INFO TC_UserMenuTest_002 - username is available after logout
+2022-07-19 18:55:24,454 [main] INFO TC_UserMenuTest_002 - time taken for test 18146
